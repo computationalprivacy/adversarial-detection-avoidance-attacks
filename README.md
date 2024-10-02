@@ -2,7 +2,7 @@
 
 ## About
 
-This repository contains the source code for creating a deduplicated version of the ImageNet ILSVRC 2012 challenge [dataset](https://www.image-net.org/challenges/LSVRC/2012/), used in the USENIX Security ‘22 [Adversarial Detection Avoidance Attacks: Evaluating the robustness of perceptual hashing-based client-side scanning](https://arxiv.org/abs/2106.09820) by Shubham Jain*, Ana-Maria Cretu* and Yves-Alexandre de Montjoye.
+This repository contains the source code for creating a deduplicated version of the ImageNet ILSVRC 2012 challenge [dataset](https://www.image-net.org/challenges/LSVRC/2012/), used in the USENIX Security ‘22 paper [Adversarial Detection Avoidance Attacks: Evaluating the robustness of perceptual hashing-based client-side scanning](https://arxiv.org/abs/2106.09820) by Shubham Jain*, Ana-Maria Cretu* and Yves-Alexandre de Montjoye.
 
 We have used this deduplicated dataset in our paper to evaluate the false positives of perceptual hashing-based client-side scanning systems. Doing this on a dataset with duplicates (such as ImageNet) would be incorrect as it would lead to overestimating false positives. Indeed, false positives are evaluated by querying a database (in our experiments, a subset of ImageNet) with a large number of images (sampled from a disjoint subset of ImageNet). If there are duplicates between the database and the query images, we would be wrongly counting true positive pairs (i.e., pairs of duplicates) as false positives.
 
