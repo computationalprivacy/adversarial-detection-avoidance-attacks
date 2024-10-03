@@ -17,7 +17,7 @@ For privacy and ethical reasons, we first removed images containing faces from I
 ### Step 1
 Download the ImageNet dataset from ILSVRC 2012. Download the training images for Task 1 and Task 2, and all the validation and test images. Extract these images in the `datasets/imagenet/` folder in the repository. The images can be extracted as `datasets/imagenet/train/`, `datasets/imagenet/val/` and `datasets/imagenet/train/` for simplicity. The dataloader looks for all images stored in the folder and subfolders. The files can be extracted using the `process_imagenet.py`. To run this, modify the data paths in the file and run:
 ```
-python data_wranglers/process_imagenet.py
+python process_imagenet.py
 ```
 
 ### Step 2
