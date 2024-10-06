@@ -10,7 +10,7 @@ We release this dataset to allow other researchers to evaluate false positives o
 
 ## Deduplication details
 
-For privacy and ethical reasons, we first removed images containing faces from ImageNet using the list provided by the paper [A Study of Face Obfuscation in ImageNet](https://arxiv.org/abs/2103.06191https://github.com/princetonvisualai/imagenet-face-obfuscation/blob/main/README.md). We then removed the exact and near-duplicate images through a semi-automated analysis of the dataset, detailed in Appendix B of our paper. Thus, we have only deduplicated the ImageNet dataset that does not contain any faces. The deduplicated dataset should contain 1,179,448 images with 8526 duplicates removed.
+For privacy and ethical reasons, we first removed images containing faces from ImageNet using the list provided by the paper [A Study of Face Obfuscation in ImageNet](https://arxiv.org/abs/2103.06191https://github.com/princetonvisualai/imagenet-face-obfuscation/blob/main/README.md) in the file `face_annotations_ILSVRC.json`. We then removed the exact and near-duplicate images through a semi-automated analysis of the dataset, detailed in Appendix B of our paper. Thus, we have only deduplicated the ImageNet dataset that does not contain any faces. The deduplicated dataset should contain 1,179,448 images with 8526 duplicates removed.
 
 ## How to use
 
